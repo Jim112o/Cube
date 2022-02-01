@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_cube" default="compile.module.cube">
+  <dirname property="module.cube.basedir" file="${ant.file.module_cube}"/>
+  
+  <property name="module.jdk.home.cube" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.cube" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.cube" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.cube" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="cube.output.dir" value="${module.cube.basedir}/target/classes"/>
+  <property name="cube.testoutput.dir" value="${module.cube.basedir}/target/test-classes"/>
+  
+  <path id="cube.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="cube.module.production.classpath">
+    <path refid="${module.jdk.classpath.cube}"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.2.4.classpath"/>
+  </path>
+  
+  <path id="cube.runtime.production.module.classpath">
+    <pathelement location="${cube.output.dir}"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.2.4.classpath"/>
+  </path>
+  
+  <path id="cube.module.classpath">
+    <path refid="${module.jdk.classpath.cube}"/>
+    <pathelement location="${cube.output.dir}"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.2.4.classpath"/>
+  </path>
+  
+  <path id="cube.runtime.module.classpath">
+    <pathelement location="${cube.testoutput.dir}"/>
+    <pathelement location="${cube.output.dir}"/>
+    <path refid="library.maven:_com.google.code.gson:gson:2.2.4.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.cube">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.cube">
+    <patternset refid="excluded.from.module.cube"/>
+  </patternset>
+  
+  <path id="cube.module.sourcepath">
+    <dirset dir="${module.cube.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="cube.module.test.sourcepath">
+    <dirset dir="${module.cube.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.cube" depends="compile.module.cube.production,compile.module.cube.tests" description="Compile module Cube"/>
+  
+  <target name="compile.module.cube.production" depends="register.custom.compilers" description="Compile module Cube; production classes">
+    <mkdir dir="${cube.output.dir}"/>
+    <javac2 destdir="${cube.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.cube}/javac">
+      <compilerarg line="${compiler.args.cube}"/>
+      <bootclasspath refid="cube.module.bootclasspath"/>
+      <classpath refid="cube.module.production.classpath"/>
+      <src refid="cube.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.cube"/>
+    </javac2>
+    
+    <copy todir="${cube.output.dir}">
+      <fileset dir="${module.cube.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.cube.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.cube.tests" depends="register.custom.compilers,compile.module.cube.production" description="compile module Cube; test classes" unless="skip.tests">
+    <mkdir dir="${cube.testoutput.dir}"/>
+    <javac2 destdir="${cube.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.cube}/javac">
+      <compilerarg line="${compiler.args.cube}"/>
+      <bootclasspath refid="cube.module.bootclasspath"/>
+      <classpath refid="cube.module.classpath"/>
+      <src refid="cube.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.cube"/>
+    </javac2>
+    
+    <copy todir="${cube.testoutput.dir}">
+      <fileset dir="${module.cube.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.cube" description="cleanup module">
+    <delete dir="${cube.output.dir}"/>
+    <delete dir="${cube.testoutput.dir}"/>
+  </target>
+</project>

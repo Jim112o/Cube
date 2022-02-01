@@ -1,0 +1,49 @@
+{
+  "yellow": "Yellow",
+  "white": "White",
+  "red": "Red",
+  "orange": "Orange",
+  "blue": "Blue",
+  "green": "Green",
+  "top": "Top",
+  "bottom": "Bottom",
+  "front": "Front",
+  "back": "Back",
+  "leftSide" : "Left Side",
+  "rightSide" : "Right Side",
+  "up": "Up",
+  "middle": "Middle",
+  "down": "Down",
+  "left": "Left",
+  "right": "Right",
+
+
+
+
+  "whatIsColor": "What is the color of the %%DIRECTION %%XXXX %%YYYY?",
+  "ranking" : "Ranking",
+  "changeLanguage": "change language for English.",
+
+  "showGUI": "%%NAME is shown",
+  "hideGUI": "%%NAME is hidden.",
+  "GuiIsNotFound": "Gui is not found.",
+
+  "PleaseEnterTheCurrentStatus": "Please enter the current status.",
+  "DoNotKnowTheNumber": "If you don't know the numbers, please enter \"show num\".",
+  "NowFirstHoldTheYellowSideUpAndTheRedSideInFrontOfYou": "Now, first hold it with the white side up and the green side in front of you.",
+  "LetsStartByConner": "Let's start typing from the corner!",
+
+  "NowThisIsACommandThatIsNotAvailable": "Now, this is a command that is not available.",
+  "CornerPartNumbersAre0To7": "Corner part numbers are 0 to 7.",
+  "TheEdgePartNumbersAre0To11.": "The edge part numbers are 0 to 11.",
+  "ColorIsNotEnteredCorrectly": "Color is not entered correctly.",
+  "CantFindTheCorrespondingPart": "Can't find the corresponding part.",
+  "PleaseCheckTheColorAgain": "Please check the color again.",
+
+  "ThePartsAreNotSetUpCorrectly":"The parts are not set up correctly.",
+
+  "TheArgumentIsIncorrect": "The argument is incorrect.",
+
+  "LanguageChangedTOjp": "言語を日本語に変更しようとしています。 \n 変更を確定するには \"restart\" コマンドを実行してください。",
+  "LanguageChangedTOen": "You are trying to change the language to English. \n To confirm the change, please execute the \"restart\" command."
+}

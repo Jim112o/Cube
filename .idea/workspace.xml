@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CubeApplication:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="149dc53f-e0f2-481c-a7d7-13ad00021634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/-natives/windows-amd64/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-natives/windows-amd64/gluegen-rt-2.0.2-rc12-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-natives/windows-amd64/gluegen-rt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CubeApplication_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cube.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cube.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CubeApplication.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CubeApplication.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cube.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_cube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_cube_Tue_Jul_28_18-14-23_JST_2020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CubeApplication_jar/Cube.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Cube_jar/CubeApplication.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Back.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandTabCompletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CubeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Hide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/MoveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/PLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/CubeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/CubeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/MoveManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Orientation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Up.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/Ua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/Ub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/Z.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/VirtualCube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Events/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Events/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Events/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/CommandLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/GUI3D/Dmain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Ranking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/StopWatchGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/Tying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_dark_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_dark_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/dark_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/dark_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/dark_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/pre.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Image/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MAIN/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MAIN/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/Codes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/MoveCodeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/StringManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/String/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Ranking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Scramble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/StartUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Systems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Timer/StartAndStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Timer/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Timer/TimerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/ErrorCode.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/MoveCode.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/ranking.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/languages/strings_en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/languages/strings_jp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Back.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CommandInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CommandManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CommandTabCompletion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CubeCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Debug.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Hide.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Language.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/MoveCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/PLL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Show.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Cube.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/CubeList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/CubeManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Move.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/MoveManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$CO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$EO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Up.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/T.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Ua.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Ub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Z.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cube/VirtualCube.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Data/ErrorCode.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Data/MoveCode.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Data/ranking.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Events/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Events/Keyboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Events/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/GUI/CommandLine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/GUI/GUI3D/Dmain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/GUI/Light.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/GUI/Ranking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/GUI/StopWatchGUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Image/Tying.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MAIN/Cube.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/MAIN/Get.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Cube.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/String/Codes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/String/MoveCodeManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/String/StringManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/String/Strings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exception/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Ranking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Scramble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Search$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$debug.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$err.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$out.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Timer/StartAndStop$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Timer/StartAndStop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Timer/StopWatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Timer/TimerManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/languages/strings_en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/languages/strings_jp.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="185" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Back.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Systems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6953">
+              <caret line="433" column="26" selection-start-line="433" selection-start-column="26" selection-end-line="433" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Show.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/PLL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Ranking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandTabCompletion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.out.println</find>
+      <find>check</find>
+      <find>getStrings</find>
+      <find>show</find>
+      <find>回避</find>
+      <find>debug.</find>
+      <find>AN</find>
+      <find>&quot;AN</find>
+      <find>CommandLine</find>
+      <find>on</find>
+      <find>clickCount</find>
+      <find>の色を</find>
+      <find>An inte</find>
+      <find>System.</find>
+      <find>System.out</find>
+      <find>false&quot;</find>
+      <find>part</find>
+      <find>あっち</find>
+      <find>m.out</find>
+      <find>So</find>
+      <find>DEBUGMO</find>
+      <find>usage</find>
+      <find>system.out.println</find>
+      <find>systems.out.println</find>
+      <find>restart</find>
+      <find>color</find>
+      <find>bye</find>
+      <find>Mykeynavbeh</find>
+      <find>split</find>
+      <find>An internal error occurred while attempting to perform this command</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Java\Game\GUI\Cube\src\main</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/Data/ErrorCode.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/CommandTabCompletion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Cube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MAIN/CubeApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/Ranking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/PLL/Ub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/Move/MoveManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Timer/StopWatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Hide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Systems/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/CubeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/CubeList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Move.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/Move/Orientation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/Light.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/Cube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/VirtualCube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/GUI3D/Cube3D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/GUI3D/Canvas3D_ViewChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/CommandLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/GUI3D/Mykeynavbeh.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/GUI3D/MykeynavbehTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/GUI3D/ViewChange_test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Back.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Systems/Scramble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/GUI3D/HelloApplet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/MoveCode/pll.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/MoveCode.json" />
+        <option value="$PROJECT_DIR$/src/main/java/MAIN/Cube.java" />
+        <option value="$PROJECT_DIR$/src/main/java/String/Codes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/String/MoveCodeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Cube/Move/Move.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GUI/GUI3D/Dmain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/PLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Debug.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Events/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Events/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/languages/strings_en.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/languages/strings_jp.json" />
+        <option value="$PROJECT_DIR$/src/main/java/String/Strings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Language.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Events/Keyboard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Systems/Systems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Systems/StartUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Commands/Show.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Systems/Exit.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Cube" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI3D" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MAIN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Systems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Systems" type="462c0819:PsiDirectoryNode" />
+              <item name="Exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Timer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="languages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="CubeApplication" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../testpl/test1" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19724138" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Game\GUI\Cube\src\main\resources\languages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GUI" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\Game\GUI\Cube\src\main\resources\languages" />
+      <recent name="C:\Java\Game\GUI\Cube\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="アプリケーション.Cube">
+    <configuration name="Cube" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAIN.Cube" />
+      <module name="Cube" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dmain" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.GUI3D.Dmain" />
+      <module name="Cube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.GUI3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplet" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.GUI3D.HelloApplet" />
+      <module name="Cube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.GUI3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="アプリケーション.Cube" />
+      <item itemvalue="アプリケーション.Dmain" />
+      <item itemvalue="アプリケーション.HelloApplet" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="アプリケーション.Cube" />
+        <item itemvalue="アプリケーション.Dmain" />
+        <item itemvalue="アプリケーション.HelloApplet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="149dc53f-e0f2-481c-a7d7-13ad00021634" name="Default Changelist" comment="" />
+      <created>1595464949366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595464949366</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="699" height="754" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.48200312" />
+      <window_info id="Structure" order="6" sideWeight="0.50236964" side_tool="true" weight="0.23071104" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.31914893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.7568438" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.23240589" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="パレット" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.2488263" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.18381241" />
+      <window_info id="Structure" order="6" sideWeight="0.50236964" side_tool="true" weight="0.23071104" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3207856" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.15384616" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="パレット" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.2488263" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Systems/Systems.java</url>
+          <line>283</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cube$CubeApplication.ic" NAME="CubeApplication Coverage Results" MODIFIED="1595928736607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Help.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cube/Move/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="557" column="17" selection-start-line="557" selection-start-column="17" selection-end-line="557" selection-end-column="17" />
+          <folding>
+            <element signature="e#17754#17755#0" expanded="true" />
+            <element signature="e#17816#17817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CubeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/GUI3D/Dmain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cube/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cube/VirtualCube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Events/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/CommandLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="method#keyTyped#0;class#CommandLine#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Hide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Timer/StopWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Timer/TimerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/sun/awt/windows/WButtonPeer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/event/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1027" column="14" selection-start-line="1027" selection-start-column="14" selection-end-line="1027" selection-end-column="14" />
+          <folding>
+            <element signature="e#43831#43832#0" expanded="true" />
+            <element signature="e#43861#43862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/StopWatchGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Events/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Events/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/strings_jp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/strings_en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/MoveCode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/ErrorCode.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Timer/StartAndStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Scramble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/String/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/String/StringManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/String/MoveCodeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/String/Codes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cube/Cube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cube/CubeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cube/CubeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/MoveCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Debug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GUI/Ranking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Systems/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MAIN/Cube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Exit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Exception/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Back.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Systems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6953">
+          <caret line="433" column="26" selection-start-line="433" selection-start-column="26" selection-end-line="433" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Show.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/PLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandTabCompletion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Ranking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CubeApplication:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19724138" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19724138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19724138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Cube</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19724138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

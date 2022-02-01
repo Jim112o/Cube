@@ -1,0 +1,23 @@
+{
+  "UaPerm": "R U' R U R U R U' R' U' R2",
+  "UbPerm": "R2 U R U R' U' R' U' R' U R'",
+  "ZPerm": "U' M' U M2 U M2 U M' U2 M2'",
+  "HPerm": "M2 U M2 U2 M2 U M2",
+  "TPerm": "R U R' U' R' F R2 U' R' U' R U R' F'",
+  "YPerm": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+  "AaPerm": "x' R2 D2 R' U' R D2 R' U R'",
+  "AbPerm": "x' R U' R D2 R' U R D2 R2",
+  "JaPerm": "L' U R' z R2 U R' U' R2 U D R'",
+  "JbPerm": "R U R' F' R U R' U' R' F R2 U' R' U'",
+  "FPerm": "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+  "VPerm": "R' U R' U' y R' F' R2 U' R' U R' F R F",
+  "RaPerm": "R U' R' U' R U R D R' U' R D' R' U2 R' U'",
+  "RbPerm": "R' U2 R U2 R' F R U R' U' R' F' R2′ U'",
+  "EPerm": "x' R U' R' D R U R' D' R U R' D R U' R' D'",
+  "GaPerm": "R2 Uw R' U R' U' R U'w R2 y' R' U R",
+  "GbPerm": "R' U' R y R2 Uw R' U R U' R Uw' R2",
+  "GcPerm": "R2 Uw' R U' R U R' Uw R2 y R U' R'",
+  "GdPerm": "R U R' y' R2 Uw' R U' R' U R' Uw R2",
+  "NaPerm": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
+  "NbPerm": "R' U R U' R' F' U' F R U R' F R' F' R U' R"
+}

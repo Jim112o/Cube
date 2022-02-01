@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.7.0_25-b16 (Oracle Corporation)
+Specification-Title: GlueGen Java Bindings Generator
+Specification-Version: 2.0
+Specification-Vendor: JogAmp Community
+Implementation-Title: GlueGen Run-Time
+Implementation-Version: 2.0.2-rc12
+Implementation-Build: 2.0-b694-20130625
+Implementation-Branch: master
+Implementation-Commit: e946fe33ab21d907e587402572effac4d9aba000
+Implementation-Vendor: JogAmp Community
+Implementation-Vendor-Id: com.jogamp
+Implementation-URL: http://jogamp.org/
+Extension-Name: com.jogamp.common
+Trusted-Library: true
+Permissions: all-permissions
+Codebase: *.jogamp.org
+

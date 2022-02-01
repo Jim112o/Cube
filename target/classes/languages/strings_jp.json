@@ -1,0 +1,48 @@
+{
+  "yellow": "黄色",
+  "white": "白色",
+  "red": "赤色",
+  "orange": "橙色",
+  "blue": "青色",
+  "green": "緑色",
+  "top": "上面",
+  "bottom": "下面",
+  "front": "正面",
+  "back": "背面",
+  "leftSide" : "左面",
+  "rightSide" : "右面",
+  "up": "上",
+  "middle": "中",
+  "down": "下",
+  "left": "左",
+  "right": "右",
+
+
+  "whatIsColor": "%%DIRECTIONの%%XXXX%%YYYYの色は？",
+  "ranking" : "ランキング",
+  "changeLanguage": "言語を日本語に変更します。",
+
+  "showGUI": "%%NAME を表示します。",
+  "hideGUI": "%%NAME を非表示にします。",
+  "GuiIsNotFound": "Gui が 見つかりません。",
+
+  "PleaseEnterTheCurrentStatus": "現在の状態を入力してください。",
+  "DoNotKnowTheNumber": "数字が分からない場合は\"show num\"を入力してください。",
+  "NowFirstHoldTheYellowSideUpAndTheRedSideInFrontOfYou": "では、まず白色の面を上、緑色の面が正面に来るように持ってください。",
+  "LetsStartByConner": "じゃあまずは、コーナーの情報を入力していきます。",
+
+  "NowThisIsACommandThatIsNotAvailable": "今は、使えないコマンドです。",
+  "CornerPartNumbersAre0To7": "コーナーパーツ番号は0～7です。",
+  "TheEdgePartNumbersAre0To11": "エッジパーツ番号は0～11です。",
+  "ColorIsNotEnteredCorrectly": "色が正しく入力されていません。",
+  "CantFindTheCorrespondingPart": "対応するパーツが見つかりません。",
+  "PleaseCheckTheColorAgain": "色を再度確認してください。",
+
+  "ThePartsAreNotSetUpCorrectly":"パーツが正しくセットされていません。",
+  
+  "TheArgumentIsIncorrect.": "引数が間違っています。",
+
+  "LanguageChangedTOjp": "言語を日本語に変更しようとしています。 \n 変更を確定するには \"restart\" コマンドを実行してください。",
+  "LanguageChangedTOen": "You are trying to change the language to English. \n To confirm the change, please execute the \"restart\" command."
+
+}
