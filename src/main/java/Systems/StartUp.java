@@ -11,12 +11,17 @@ import java.util.TimerTask;
 import static MAIN.Cube.DEBUGMODE;
 import static MAIN.Cube.language;
 import static GUI.CommandLine.ActiveCommandLine;
+import static Systems.Systems.MAC;
+import static Systems.Systems.getOS;
 
 public final class StartUp {
 
     private static int interval0;
     private static final String[] CreatedByJim = {"C","r","e","a","t","e","d"," ","b","y"," ","J","i","m","."};
     private static int i = 0;
+    private static String Bar = "-------------------------------------------------------------------------------------------------------------------";
+    private static String TitleSpace = "                                                                 ";
+    private static String CreateByJimSpace = "                                          ";
 
     public StartUp(int interval){
         if(DEBUGMODE){
@@ -40,13 +45,18 @@ public final class StartUp {
         Systems.INPUTLOCK(true);
         interval0 = interval;
         final Timer timer = new Timer();
+        if(getOS() == MAC){
+            Bar = "-----------------------------------------------------------";
+            TitleSpace = "                                             ";
+            CreateByJimSpace = "                                              ";
+        }
         timer.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
                 if(interval0 == interval){
                     Systems.stringManager = new StringManager(language);
                     CommandLine.CommandLine.setText("");
-                    Systems.out.println("-------------------------------------------------------------------------------------------------------------------");
+                    Systems.out.println(Bar);
                     Systems.out.println();
                     Systems.out.println();
                     Systems.out.println();
@@ -62,7 +72,7 @@ public final class StartUp {
                     Systems.out.println();
                     Systems.out.println();
                     Systems.out.println();
-                    Systems.out.println("-------------------------------------------------------------------------------------------------------------------");
+                    Systems.out.println(Bar);
                 }else if(interval0 == interval/2){
                     Systems.Setup();
                     CommandLine.CommandLine.setText("");
@@ -75,17 +85,17 @@ public final class StartUp {
                                 timer.cancel();
                             }
                             CommandLine.CommandLine.setText("");
-                            Systems.out.println("-------------------------------------------------------------------------------------------------------------------");
+                            Systems.out.println(Bar);
                             Systems.out.println();
                             Systems.out.println();
                             Systems.out.println();
                             Systems.out.println();
                             Systems.out.println();
                             Systems.out.println();
-                            Systems.out.println("                                                                 CubeApplication");
+                            Systems.out.println(TitleSpace+"CubeApplication");
                             Systems.out.println();
                             Systems.out.println();
-                            Systems.out.println("                                                                  ",false);
+                            Systems.out.println(CreateByJimSpace,false);
                             for(int n = 0; n<=i ; n++){
                                 Systems.out.println(CreatedByJim[n],false);
                             }
@@ -96,13 +106,13 @@ public final class StartUp {
                             Systems.out.println();
                             Systems.out.println();
                             Systems.out.println();
-                            Systems.out.println("-------------------------------------------------------------------------------------------------------------------");
+                            Systems.out.println(Bar);
                             i++;
                         }
                     },0,150);
                 }else if(interval0 == interval -1){
                     CommandLine.CommandLine.setText("");
-                    Systems.out.println("-------------------------------------------------------------------------------------------------------------------");
+                    Systems.out.println(Bar);
                     Systems.out.println();
                     Systems.out.println();
                     Systems.out.println();
@@ -115,11 +125,11 @@ public final class StartUp {
                     Systems.out.println();
                     Systems.out.println();
                     Systems.out.println();
-                    Systems.out.println("Prototype");
+                    Systems.out.println("  Prototype");
                     Systems.out.println();
                     Systems.out.println();
-                    Systems.out.println("　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Language: "+ language);
-                    Systems.out.println("-------------------------------------------------------------------------------------------------------------------");
+                    Systems.out.println("　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Language: "+ language);
+                    Systems.out.println(Bar);
 
                 }
                 if(interval0 <= 0) {
