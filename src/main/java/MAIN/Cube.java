@@ -23,7 +23,7 @@ public class Cube extends JFrame{
     public static Cube ranking;
     public static Cube command;
 
-    public static boolean DEBUGMODE = true;
+    public static boolean DEBUGMODE = false;
 
     public static String language = "en";
     public static String pllCode = "pll";
