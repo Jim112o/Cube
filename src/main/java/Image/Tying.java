@@ -1,14 +1,18 @@
 package Image;
 
+import Systems.Systems;
+
 import javax.swing.*;
 import java.awt.*;
+
+import static Systems.Systems.MAC;
 
 public class Tying extends JPanel{
 
     public static ImageIcon card ;
 
 
-    private static JLabel icon = new JLabel();
+    private static final JLabel icon = new JLabel();
 
     /**
      *
@@ -16,7 +20,11 @@ public class Tying extends JPanel{
      * @return 表示
      */
     public static JLabel tying(String image){
-        card = new ImageIcon("src\\main\\java\\Image\\"+image+".png"); //画像を取得
+        String fileName = "src\\main\\java\\Image\\"+image+".png";
+        if(Systems.getOS() == MAC) {
+            fileName = "src/main/java/Image/"+image+".png";
+        }
+        card = new ImageIcon(fileName); //画像を取得
         JLabel iicon = new JLabel(card); //Labelに入れる
         icon.setIcon(card);
         return iicon; //返す
@@ -47,7 +55,7 @@ public class Tying extends JPanel{
      * @param image 画像名
      */
     public static void tying(JLabel label, String image){
-        ImageIcon icon0 = new ImageIcon("src\\main\\java\\Image\\"+image+".png");
+        ImageIcon icon0 = new ImageIcon("src/main/java/Image/"+image+".png");
         Image smallImg = icon0.getImage().getScaledInstance((int) (icon0.getIconWidth() * 0.5), -1, Image.SCALE_SMOOTH);
         ImageIcon icon = new ImageIcon(smallImg);
         label.setIcon(icon);

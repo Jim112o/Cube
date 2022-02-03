@@ -5,12 +5,20 @@ import com.google.gson.Gson;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
+import static Systems.Systems.MAC;
+import static Systems.Systems.getOS;
+
 public class MoveCodeManager {
 
     private Codes code;
 
     public MoveCodeManager(){
-        File file = new File("src\\main\\resources\\Data\\MoveCode.json");
+        String fileName = "src\\main\\resources\\Data\\MoveCode.json";
+        if(getOS() == MAC){
+            fileName = "src/main/resources/Data/MoveCode.json";
+        }
+        File file = new File(fileName);
+
         InputStream stream = null;
         try {
             stream = new FileInputStream(file);

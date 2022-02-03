@@ -17,6 +17,8 @@ import java.util.Objects;
 import static GUI.CommandLine.CommandLine;
 import static GUI.CommandLine.input;
 import static MAIN.Cube.DEBUGMODE;
+import static Systems.OperatingSystem.*;
+import static Systems.OperatingSystem.isWindows;
 
 public abstract class Systems {
 
@@ -72,6 +74,11 @@ public abstract class Systems {
         ep = new int[]{0,1,2,3,4,5,6,7,8,9,10,11};//エッジパーツ
         eo = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};//エッジパーツの向き
     }
+
+    //OperatingSystem
+    public final static int
+        WINDOWS = 0,
+        MAC = 1;
 
     //Direction
     public final static int
@@ -469,6 +476,16 @@ public abstract class Systems {
             }
         }
         return false;
+    }
+
+    public static Integer getOS(){
+
+        if(isWindows()){
+            return 0;
+        }else if(isMac()) {
+            return 1;
+        }
+        return 100;
     }
 
 

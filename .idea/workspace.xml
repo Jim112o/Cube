@@ -5,175 +5,87 @@
       <artifact name="CubeApplication:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="149dc53f-e0f2-481c-a7d7-13ad00021634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-natives/windows-amd64/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-natives/windows-amd64/gluegen-rt-2.0.2-rc12-natives-windows-amd64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-natives/windows-amd64/gluegen-rt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CubeApplication_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cube.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cube.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CubeApplication.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CubeApplication.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cube.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cube.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_cube.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_cube_Tue_Jul_28_18-14-23_JST_2020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CubeApplication_jar/Cube.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Cube_jar/CubeApplication.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Back.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CommandTabCompletion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/CubeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Debug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Hide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/MoveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/PLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Commands/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/CubeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/CubeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/MoveManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Orientation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Move/Up.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/Ua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/Ub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/PLL/Z.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cube/VirtualCube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Events/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Events/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Events/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/CommandLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/GUI3D/Dmain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/Ranking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GUI/StopWatchGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/Tying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_dark_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_dark_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/black_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/dark_blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/dark_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/dark_red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/pre.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Image/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MAIN/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MAIN/Get.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/String/Codes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/String/MoveCodeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/String/StringManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/String/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Exception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Exit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Ranking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Scramble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/StartUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/Systems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Timer/StartAndStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Timer/StopWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Timer/TimerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/ErrorCode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/MoveCode.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/ranking.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/languages/strings_en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/languages/strings_jp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Back.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CommandInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CommandManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CommandTabCompletion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CubeCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Debug.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Help.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Hide.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Language.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/MoveCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/PLL.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/Show.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Cube.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/CubeList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/CubeManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Direction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Move.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/MoveManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$CO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$EO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Up.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/T.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Ua.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Ub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Z.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Cube/VirtualCube.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Data/ErrorCode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Data/MoveCode.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Data/ranking.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Events/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Events/Keyboard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Events/Mouse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GUI/CommandLine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GUI/GUI3D/Dmain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GUI/Light.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GUI/Ranking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GUI/StopWatchGUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Image/Tying.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/MAIN/Cube.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/MAIN/Get.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Cube.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/String/Codes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/String/MoveCodeManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/String/StringManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/String/Strings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exception/MyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Exit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Ranking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Scramble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Search$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$debug.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$err.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$out.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Systems/Systems.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Timer/StartAndStop$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Timer/StartAndStop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Timer/StopWatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Timer/TimerManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/languages/strings_en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/languages/strings_jp.json" afterDir="false" />
+    <list default="true" id="149dc53f-e0f2-481c-a7d7-13ad00021634" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Systems/OperatingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cube.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Image/Tying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Image/Tying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/String/StringManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/String/StringManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Systems/Systems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Systems/Systems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/Back.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/Back.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/CommandInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/CommandInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/CommandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/CommandManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/CommandTabCompletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/CommandTabCompletion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/CubeCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/CubeCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/Debug.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/Debug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/Help.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/Help.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/Hide.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/Hide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/MoveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/MoveCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/PLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/PLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commands/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commands/Show.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Cube.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/CubeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/CubeList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/CubeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/CubeManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Move/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Move/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Move/MoveManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Move/MoveManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$CO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$CO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$EO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation$EO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Orientation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Move/Up.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Move/Up.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/PLL/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/PLL/Ua.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Ua.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/PLL/Ub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Ub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/PLL/Z.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/PLL/Z.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cube/VirtualCube.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cube/VirtualCube.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Events/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Events/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Events/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Events/Keyboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Events/Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Events/Mouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/CommandLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/CommandLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/GUI3D/Dmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/GUI3D/Dmain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/Ranking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/Ranking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/StopWatchGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/StopWatchGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Image/Tying.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Image/Tying.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MAIN/Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MAIN/Cube.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MAIN/Get.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MAIN/Get.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Cube.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/String/Codes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/String/Codes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/String/MoveCodeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/String/MoveCodeManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/String/StringManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/String/StringManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/String/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/String/Strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exception/MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exception/MyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exit$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exit$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exit$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exit$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exit$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exit$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Exit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Exit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Ranking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Ranking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Scramble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Scramble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Search$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Search$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/StartUp$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/StartUp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/StartUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/StartUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Systems$debug.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$debug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Systems$err.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$err.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Systems$out.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Systems$out.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Systems/Systems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Systems/Systems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Timer/StartAndStop$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Timer/StartAndStop$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Timer/StartAndStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Timer/StartAndStop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Timer/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Timer/StopWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Timer/TimerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Timer/TimerManager.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,106 +96,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Back.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Systems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6953">
-              <caret line="433" column="26" selection-start-line="433" selection-start-column="26" selection-end-line="433" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Show.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/PLL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Systems/Ranking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandTabCompletion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Commands/CommandManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -331,6 +143,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -389,10 +209,12 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -414,6 +236,7 @@
     <option name="width" value="699" />
     <option name="height" value="754" />
   </component>
+  <component name="ProjectId" id="24VlbY20Am3RJnXMPugHmbwuOSA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -558,6 +381,10 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -565,13 +392,18 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="CubeApplication" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../testpl/test1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/String" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19724138" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/String" />
+      <recent name="C:\Java\Game\GUI\Cube\src\main\resources\languages" />
+      <recent name="C:\Java\Game\GUI\Cube\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Java\Game\GUI\Cube\src\main\resources\languages" />
     </key>
@@ -579,24 +411,21 @@
       <recent name="GUI" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Java\Game\GUI\Cube\src\main\resources\languages" />
-      <recent name="C:\Java\Game\GUI\Cube\src\main\java" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="アプリケーション.Cube">
+    <configuration name="Cube" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MAIN.Cube" />
+      <module name="Cube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MAIN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cube" type="Application" factoryName="アプリケーション" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MAIN.Cube" />
       <module name="Cube" />
@@ -632,17 +461,14 @@
     </configuration>
     <list>
       <item itemvalue="アプリケーション.Cube" />
-      <item itemvalue="アプリケーション.Dmain" />
-      <item itemvalue="アプリケーション.HelloApplet" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="アプリケーション.Cube" />
-        <item itemvalue="アプリケーション.Dmain" />
-        <item itemvalue="アプリケーション.HelloApplet" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -726,17 +552,31 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Systems/Systems.java</url>
-          <line>283</line>
-          <properties />
+          <line>285</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
