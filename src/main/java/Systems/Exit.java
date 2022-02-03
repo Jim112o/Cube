@@ -17,9 +17,9 @@ public class Exit {
     private static final String[] SeeYou = {"S","e","e"," ","y","o","u","!","!","!"};
     private static final String[] ThankYouForPlaying = {"T","h","a","n","k"," ","y","o","u"," ","f","o","r"," ","p","l","a","y","i","n","g","."};
     private static String[] playhul;
-    private static String Bar = "-------------------------------------------------------------------------------------------------------------------";
+    private static String Bar = "----------------------------------------------------------------------------------------------------------------------";
     private static String DebugSeeYouSpace = "                                                                    ";
-    private static String DebugPressSpace = "                                          ";
+    private static String DebugPressSpace = "                                                          ";
     private static String SeeYouSpace = "                                                                  ";
     private static String ThankSpace = "                                                      ";
     private static int i = 0;
@@ -49,7 +49,7 @@ public class Exit {
             Systems.out.println(DebugPressSpace,false);
             Systems.out.println("Press the close button.",false);
             for(int K = 0 ; K < 7 ; K++){ Systems.out.println(); }
-            Systems.out.println("-----------------------------------------------------------");
+            Systems.out.println(Bar);
             return;
         }
         CommandLine.input.setText(str);

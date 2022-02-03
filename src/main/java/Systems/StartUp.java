@@ -19,9 +19,9 @@ public final class StartUp {
     private static int interval0;
     private static final String[] CreatedByJim = {"C","r","e","a","t","e","d"," ","b","y"," ","J","i","m","."};
     private static int i = 0;
-    private static String Bar = "-------------------------------------------------------------------------------------------------------------------";
+    private static String Bar = "----------------------------------------------------------------------------------------------------------------------";
     private static String TitleSpace = "                                                                 ";
-    private static String CreateByJimSpace = "                                          ";
+    private static String CreateByJimSpace = "                                                                  ";
 
     public StartUp(int interval){
         if(DEBUGMODE){
